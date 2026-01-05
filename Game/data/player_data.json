@@ -1,0 +1,64 @@
+{
+    "1": {
+        "name": "Захар",
+        "time_left": 578,
+        "inventory": {
+            "items": [
+                {
+                    "name": "Ручка",
+                    "description": "Простая шариковая ручка",
+                    "power": 10
+                },
+                {
+                    "name": "Линейка",
+                    "description": "Деревянная, поношенная линейка",
+                    "power": 30
+                },
+                {
+                    "name": "Циркуль соседа",
+                    "description": "Качественный чертежный циркуль, одолженный у соседа",
+                    "power": 60
+                },
+                {
+                    "name": "Рейсшина соседа",
+                    "description": "Профессиональная рейсшина для черчения параллельных линий",
+                    "power": 70
+                }
+            ]
+        },
+        "flags": {
+            "eat_1": false,
+            "eat_2": false,
+            "eat_3": false,
+            "is_washing": false,
+            "has_photo_work": false,
+            "is_sleep_day": false,
+            "has_mega_file": false,
+            "tram_thunderstorm": false,
+            "big_eared_passenger": true,
+            "bad_album": true,
+            "norm_album": false,
+            "mega_album": false,
+            "mega_brain": false
+        },
+        "choices_history": [
+            "002",
+            "004",
+            "009",
+            "012",
+            "015",
+            "018",
+            "022",
+            "023",
+            "026",
+            "028",
+            "030",
+            "033"
+        ],
+        "current_block_id": "block_end"
+    },
+    "2": null,
+    "3": null,
+    "4": null,
+    "5": null
+}

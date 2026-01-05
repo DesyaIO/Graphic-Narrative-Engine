@@ -1,0 +1,79 @@
+{
+  "choice_blocks": {
+    "block_001": {
+      "name": "Что вы выберете ?",
+      "available_choices": ["001", "002"],
+      "previous_block": "text_005"
+    },
+    "block_002": {
+      "name": "Что вы выберете ?",
+      "available_choices": ["003", "004"],
+      "previous_block": "text_006"
+    },
+    "block_003": {
+      "name": "Что вы выберете ?",
+      "available_choices": ["005","006"],
+      "previous_block": "text_007"
+    },
+    "block_004": {
+      "name": "Что вы выберете ?",
+      "available_choices": ["007","008"],
+      "previous_block": "text_010"
+    },
+    "block_005": {
+      "name": "Уже {time}. Пора задуматься куда стоит пойти делать чертежи ?\n",
+      "available_choices": ["009","010","011"],
+      "previous_block": ["block_002","text_011"]
+    },
+    "block_006": {
+      "name": "Что вы выберете ?",
+      "available_choices": ["012","013"],
+      "previous_block": "text_012"
+    },
+    "block_007": {
+      "name": "Что будете делать ?",
+      "available_choices": ["014","013","020"],
+      "previous_block": "text_014"
+    },
+    "block_008": {
+      "name": "Что будете делать ?",
+      "available_choices": ["015", "016","017"],
+      "previous_block": ["text_015","text_016"]
+    },
+    "block_009": {
+      "name": "Что будете делать ?",
+      "available_choices": ["018","019"],
+      "previous_block": ["text_017", "block_008"]
+    },
+    "block_010": {
+      "name": "Что будете делать ?",
+      "available_choices": ["021","022"],
+      "previous_block": ["text_019"]
+    },
+    "block_011": {
+      "name": "Что вы выберете ?",
+      "available_choices": ["023","024"],
+      "previous_block": ["block_010"]
+    },
+    "block_012": {
+      "name": "Вдали вы замечаете долгожданный трамвай. В очередной раз возникает тот самый внутренний диссонанс: куда сесть? В начало трамвая, к окну, где можно слиться с пейзажем за стеклом, или всё-таки в середину — ближе к выходу, к людям, к движению? ?",
+      "available_choices": ["025","026"],
+      "previous_block": ["text_020","text_021","block_011"]
+    },
+    "block_013": {
+      "name": "Что вы выберете ?",
+      "available_choices": ["027","028"],
+      "previous_block": ["text_022"]
+    },
+    "block_014": {
+      "name": "Что будете делать ?",
+      "available_choices": ["029","030","031"],
+      "previous_block": ["text_023"]
+    },
+    "block_015": {
+      "name": "К вам подходит кондуктор, что вы выберете?",
+      "available_choices": ["032","033","034"],
+      "previous_block": ["text_024","text_025"]
+    }
+  }
+}
