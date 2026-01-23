@@ -86,10 +86,10 @@
     "011": {
       "name": "Прилечь на кровать и посмотреть немного TikTok.",
       "description": "Ну почему бы не зарядиться небольшой порцией контента перед рабочим днем?",
-      "time_cost": "E4_-41RR$R_NOO",
-      "condition": null,
+      "time_cost": "???",
+      "condition": "is_washing == False",
       "given_flag": "is_sleep_day",
-      "end_condition": "eat_1 == False",
+      "end_condition": "is_washing == False",
       "end": 1,
       "end_description": "вы не даже покупались и сонными дальше легли спать. Проснувшись вы увидели на своем телефоне 21 00 - вы академический должик...",
       "next_block": ""

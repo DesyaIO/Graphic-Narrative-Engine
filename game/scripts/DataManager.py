@@ -88,6 +88,6 @@ class DataManager():
         return self.load_data_safe()
 
     def get_player(self, number=1):
-        from Game.scripts.Player import Player
+        from GraphicNarrativeEngine.game.scripts.Player import Player
         player_data = self.__data_simple.get(str(number))
         return Player.from_dict(player_data)
