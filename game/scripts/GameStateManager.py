@@ -1,13 +1,13 @@
-# Game/scripts/GameStateManager.py
+# game/scripts/GameStateManager.py
 from typing import Dict, Optional
 import json
 
-from Game import config
-from Game.scripts.TextBlock import TextBlock
-from Game.scripts.ChoiceBlock import ChoiceBlock
-from Game.scripts.Choice import Choice
-from Game.scripts.GameBlock import GameBlock
-from Game.utils.ConsoleUtils import print_slow
+from GraphicNarrativeEngine.game import config
+from GraphicNarrativeEngine.game.scripts.TextBlock import TextBlock
+from GraphicNarrativeEngine.game.scripts.ChoiceBlock import ChoiceBlock
+from GraphicNarrativeEngine.game.scripts.Choice import Choice
+from GraphicNarrativeEngine.game.scripts.GameBlock import GameBlock
+from GraphicNarrativeEngine.game.utils.ConsoleUtils import print_slow
 
 
 class GameStateManager:

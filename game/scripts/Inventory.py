@@ -1,6 +1,6 @@
 from typing import List
 
-from Game.scripts.Item import Item
+from GraphicNarrativeEngine.game.scripts.Item import Item
 
 
 class Inventory:

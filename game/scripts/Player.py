@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Dict
-from Game.scripts.Inventory import Inventory
+from GraphicNarrativeEngine.game.scripts.Inventory import Inventory
 
 
 

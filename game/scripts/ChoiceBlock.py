@@ -1,10 +1,8 @@
-# Game/scripts/ChoiceBlock.py
 from typing import List, Optional, Union
-from Game.scripts.GameBlock import GameBlock
-
-from Game import config
-from Game.scripts.Choice import Choice
-from Game.utils.ConsoleUtils import print_slow, clear_console
+from GraphicNarrativeEngine.game.scripts.GameBlock import GameBlock
+from GraphicNarrativeEngine.game import config
+from GraphicNarrativeEngine.game.scripts.Choice import Choice
+from GraphicNarrativeEngine.game.utils.ConsoleUtils import print_slow, clear_console
 
 
 class ChoiceBlock(GameBlock):

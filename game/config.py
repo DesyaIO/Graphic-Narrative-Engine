@@ -25,9 +25,9 @@ INITIAL_TIME_LEFT = START_TIME  # Начальное время
 # ============================================
 
 # Основные директории
-DATA_DIR = "Game/data"
-SAVES_DIR = "Game/saves"
-LOG_DIR = "Game/logs"
+DATA_DIR = "game/data"
+SAVES_DIR = "game/saves"
+LOG_DIR = "game/logs"
 
 # Файлы данных
 CHOICES_FILE = "choices.json"

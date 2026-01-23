@@ -1,7 +1,7 @@
 import json
 import os
 
-PATH_PLAYER = "Game/data/player_data.json"
+PATH_PLAYER = "game/data/player_data.json"
 
 
 class DataManager():

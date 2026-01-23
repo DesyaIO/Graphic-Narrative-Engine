@@ -1,4 +1,4 @@
-from Game.scripts.GameEngine import GameEngine
+from game.scripts.GameEngine import GameEngine
 
 def main():
     """Точка входа в программу"""

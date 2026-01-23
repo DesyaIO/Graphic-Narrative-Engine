@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Optional, List, Union
 
-from Game.scripts.Item import Item
+from GraphicNarrativeEngine.game.scripts.Item import Item
 
 
 @dataclass
